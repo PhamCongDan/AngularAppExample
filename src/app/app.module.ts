@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material';
-import { MatInputModule, MatButtonModule, MatIconModule, MatDialogModule, MatTreeModule } from '@angular/material';
+import { MatInputModule, MatButtonModule, MatIconModule, MatDialogModule, MatTreeModule, MatCheckboxModule } from '@angular/material';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -41,6 +41,7 @@ import { MatTreeComponent } from './component/mat-tree/mat-tree.component';
     MatDialogModule,
     HttpClientModule,
     FormsModule,
+    MatCheckboxModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
     BsDropdownModule.forRoot(),
